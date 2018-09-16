@@ -8,6 +8,7 @@ function theBeatlesPlay(musicians,instruments){
   for(i=0;i<musicians.length;i++){
     sentences.push((musicians[i]+" plays the "+instruments[i]));
   }
+  return sentences;
 }
 
 theBeatlesPlay(musicians,instruments);
